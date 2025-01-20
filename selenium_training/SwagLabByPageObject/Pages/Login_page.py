@@ -10,6 +10,7 @@ class loginPage():
         print("Hi")
 
     #standard_user
+
     # secret_sauce
     def login_by_user_password(self,user_text,password_text):
         user = self.driver.find_element(By.ID, "user-name")
